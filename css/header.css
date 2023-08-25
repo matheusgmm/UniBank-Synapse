@@ -1,0 +1,38 @@
+header {
+    margin-bottom: 37px;
+}
+
+header .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header .container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header .container nav ul li a {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 112%;
+    color: var(--neutral-300);
+    transition: color 1s;
+}
+
+header .container nav ul li a:hover {
+    color: var(--main-color);
+
+}
+
